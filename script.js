@@ -25,4 +25,6 @@ else if (userAge >= 65){
 }
 // risultato del prezzo finale in numeri decimali max.2
 totalPrice = totalPrice.toFixed(2)
-console.log(totalPrice)
+// Final Output 
+console.log('Il totale del vostro viaggio è:')
+
