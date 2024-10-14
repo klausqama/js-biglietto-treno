@@ -9,3 +9,8 @@ console.log(km)
 //chiedere l'età del passeggero per eventuale sconto
 let age = prompt("inserisca la sua età")
 console.log(age)
+//Prezzo del biglietto al km
+const kmPrice= 0.21
+let totalPrice= km * kmPrice
+console.log(totalPrice)
+
