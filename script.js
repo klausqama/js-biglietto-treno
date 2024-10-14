@@ -12,5 +12,11 @@ console.log(age)
 //Prezzo del biglietto al km
 const kmPrice= 0.21
 let totalPrice= km * kmPrice
+// sconto del prezzo per età del 20% 
+if(age < 18){totalPrice * 20/100
+}
+// sconto del prezzo per età del 40%
+else if (age > = 65){
+    totalPrice * 40/100
+}
 console.log(totalPrice)
-
