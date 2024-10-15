@@ -5,16 +5,17 @@ console.log(name)
 // Inizio ex//
 // Creare un Prompt per chiedere il numero di chilometri da percorrere al passeggero
 let Km = prompt("Quanti chilometri deve percorrere?")
-console.log(Km)
+console.log('chilometri da percorrere:',Km)
 //chiedere l'età del passeggero per eventuale sconto
 let userAge = prompt("inserisca la sua età")
-console.log(userAge)
+console.log('età del passeggero',userAge)
 // modificare il valore di prompt da stringa a numero
 const numberKm = parseInt(Km)
 const numberuserAge = parseInt(userAge)
 //Prezzo del biglietto al km
 const kmPrice = 0.21
 let totalPrice = Km * kmPrice 
+console.log('prezzo',totalPrice)
 // sconto del prezzo per età del 20% 
 if(userAge < 18){
     totalPrice = totalPrice * 20 / 100
@@ -26,5 +27,5 @@ else if (userAge >= 65){
 // risultato del prezzo finale in numeri decimali max.2
 totalPrice = totalPrice.toFixed(2)
 // Final Output 
-console.log('Il totale del vostro viaggio è:')
+console.log('Il totale del vostro viaggio è:', totalPrice)
 
